@@ -17,6 +17,8 @@ public class Solution {
             System.out.println(sum);
         } catch (InputMismatchException e) {
             System.out.println(e.getClass().getName());
+        } catch (ArithmeticException e) {
+            System.out.println(e);
         }
     }
 }
